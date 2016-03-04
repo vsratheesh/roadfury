@@ -1,24 +1,22 @@
 body {
-   background-image: url("../images/AntarcticaDomeCSnow.jpg");
-   background-size: cover;
-  }
-   body #game {
-       width: 60vmin;
-       height: 100vmin;
-       background-color: black;
-       margin: 0 auto;
-       position: relative;
-       overflow: hidden;
-  }
-     img#my_car {
-       width: 15vmin;
-       position: absolute;
-       bottom: 0;
-       left: 0;
-  }
-     img#enemy_car {
-       width: 15vmin;
-       position: absolute;
-       left: 0;
-       top: 0;
-  }  
+  background-image: url("../images/AntarcticaDomeCSnow.jpg");
+  background-size: cover; }
+  body #game {
+    width: 50vmin;
+    height: 100vmin;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    body #game img#my_car {
+      width: 10vmin;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    body #game img#enemy_car {
+      width: 10vmin;
+      position: absolute;
+      right: 0;
+      top: 0; }
+
+/*# sourceMappingURL=game.css.map */
